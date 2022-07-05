@@ -10,19 +10,18 @@ public class View {
                 *********************************
                 *               To Do           *
                 *   Opcje:                      *
-                *   1. Wyúwietl zadania.        *
-                *   (Sortowanie domyúlne).      *
-                *   2. UkoÒcz zadanie.          *
+                *   1. Wy≈ìwietl zadania.        *
+                *   2. Uko√±cz zadanie.          *
                 *   3. Edytuj zadanie.          *
-                *   4. UsuÒ zadanie.            *
+                *   4. Usu√± zadanie.            *
                 *   5. Dodaj zadanie.           *
                 *                               *
                 *********************************
                 
                 """;
         System.out.println(menu);
-        System.out.print("WybÛr: ");
-        int choiceMenu = NumberFromUser.validation(1,6);
+        System.out.print("Wyb√≥r: ");
+        int choiceMenu = NumberFromUser.validation(1,5);
 
        Navigation.navigation(taskListControl,choiceMenu);
     }
